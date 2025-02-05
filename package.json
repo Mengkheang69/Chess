@@ -1,0 +1,22 @@
+{
+  "name": "chess-web-app",
+  "version": "1.0.0",
+  "description": "A web application for playing chess with Stockfish integration for move review and gameplay.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "stockfish": "^17.0.0",
+    "chessboardjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "babel-loader": "^8.0.0",
+    "eslint": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
